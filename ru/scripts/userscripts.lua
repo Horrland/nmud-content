@@ -1,4 +1,4 @@
-##### подойти #####
+##### осмотреться #####
 function main(...)
 	if #arg == 0 then
       descr = client:getDescription();
@@ -12,18 +12,18 @@ function main(...)
    end
    client:send(descr);
 end
-##### осмотреться #####
+##### подойти #####
 function main(...)
 	if #arg == 0 then
-      descr = client:getDescription();
+--      descr = client:getDescription();
+    descr = 'Куда движемся?';
    else
       rg = "";
       for i = 1, arg.n-1 do
          rg = rg..arg[i].." ";
       end
       rg = rg..arg[arg.n];
-      client:send("Multiple args: "..rg);
-      descr = client:getDescriptionOf(rg);
+      descr = client:moveTo(rg);
    end
    client:send(descr);
 end
