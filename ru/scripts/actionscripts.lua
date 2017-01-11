@@ -44,19 +44,9 @@ end
 
 function selectavatar(...)
   client:send('Привет, '..username..'!');
-  client:send('Как зовут твоего аватара?');
---  local list = accounting:getAvatarsAsNumberedList();
+  client:doAvatarSelection();
   
-  local readed = client:read();
-
-  if readed == '' or readed == ' ' then
-    readed = "Птицекрыл";
-  end
-
-  client:useLogin(readed);
-  client:send('Ваш аватар - «'..readed..'». Приятной игры!');
-
-  client:send('\n=========');
+  client:send('=========');
 end
 
 function newprofile(...)
