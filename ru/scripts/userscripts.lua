@@ -90,3 +90,17 @@ function main(...)
     client:send(lost);
   end
 end
+##### убить #####
+function main(...)
+	if #arg == 0 then
+      descr = 'Кого?';
+   else
+      rg = "";
+      for i = 1, arg.n-1 do
+         rg = rg..arg[i].." ";
+      end
+      rg = rg..arg[arg.n];
+      descr = client:kill(rg);
+   end
+   client:send(descr);
+end
