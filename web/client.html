@@ -1,0 +1,142 @@
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="msapplication-TileColor" content="#008000">
+	<meta name="theme-color" content="#008000">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	
+  <style>
+	  
+	  h1 {
+	  	height: 24px;
+		padding: 0 0 0 0;
+		margin: 6px 6px 6px 6px;
+	  }
+	  
+      hr {
+	    height: 2px;
+		border: none;
+    	color: #24890d; 
+    	background-color: #24890d;
+		padding: 0 0 0 0;
+		margin: 6px 6px 6px 6px;
+	  }
+	  
+	  ul {
+	    list-style-type: none;
+	    padding: 0 0 0 0;
+      }
+	  
+	  .headerLine {
+	  	width: calc(100% - 12px);
+	  }
+	  
+      .chatList {
+	    position: absolute;
+		overflow: auto;
+		top: 48px;
+	    bottom: 40px;
+		margin: 6px 6px 6px 6px;
+      }
+	  
+      .chatBottom {
+	    position: absolute;
+		width: calc(100% - 16px);
+	    bottom: 0px;
+		padding: 0 0 0 0;
+		margin: 6px 6px 6px 6px;
+      }
+	  
+	  .chatHr {
+	  	margin: 0px 0px 0px 0px;
+		width: calc(100% - 18px);
+	  }
+	  
+	  .chatForm{
+	  	padding: 0 0 0 0;
+		margin: 6px 6px 6px 6px;
+	  }
+	  
+	  .chatText{
+	  	width: calc(100% - 75px);
+	  }
+    </style>
+  </head>
+<body>
+  <h1>nmud http demo</h1>
+  <hr class="headerLine"/>
+
+  <div class="chatList">
+    <ul class="answersList"></ul>
+  </div>
+  
+  <div class="chatBottom">
+	<hr class="chatHr"/>
+	<form class="chatForm">
+	  <input class="chatText" type="text" id="editText">
+	  <input class="chatBtn" type="button" value="Send">
+	</form>
+  </div>
+
+  <script>
+  var address = 'http://localhost:3000';
+  var txtSend = document.querySelector('.chatText');
+  var btnSend = document.querySelector('.chatBtn');
+  var lstAnss = document.querySelector('.answersList');
+  btnSend.addEventListener('click', post);
+  get();
+  
+  function post(){
+    var httpRequest = new XMLHttpRequest();
+
+	if (!httpRequest) {
+        alert('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
+        return false;
+    }
+	
+	httpRequest.open('POST', address+'/io?msg='+txtSend.value, true);
+	httpRequest.send(null);
+	
+	txtSend.value = "";
+	txtSend.focus();
+  }
+  
+  function get(){
+  	var httpRequest = new XMLHttpRequest();
+	
+	if (!httpRequest) {
+        alert('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
+        return false;
+    }
+	
+	httpRequest.onreadystatechange = function() {
+	  handleResponse(httpRequest);
+	};
+	
+	httpRequest.open('GET', address+'/io', true);
+	httpRequest.send(null);
+  }
+  
+  
+  function handleResponse(httpRequest){
+	if (httpRequest.readyState == 4) {
+      if (httpRequest.status == 200) {
+        appendElementToList("|"+httpRequest.responseText);
+      } else {
+        alert('С запросом возникла проблема.\nstate: '+httpRequest.readyState+'\nstat:'+httpRequest.status);
+      }
+	  get();
+    }
+  }
+  
+  function appendElementToList(text) {
+    var testElement = document.createElement('li');
+    testElement.textContent = text;
+	lstAnss.appendChild(testElement);
+  }
+  </script>
+
+</body>
+</html>
