@@ -1,0 +1,50 @@
+header {
+  padding: 0 0 0 0;
+  margin: 6px 6px 6px 6px;
+}
+
+h1 {
+  padding: 0 0 0 0;
+  margin: 6px 6px 6px 6px;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  color: #24890d;
+  background-color: #24890d;
+  padding: 0 0 0 0;
+  margin: 6px 6px 6px 6px;
+}
+	  
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0 0 0 0;
+}
+	  
+.chatList {
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  top: 48px;
+  bottom: 40px;
+  margin: 6px 6px 6px 6px;
+}
+
+.chatBottom {
+  position: absolute;
+  width: calc(100% - 16px);
+  bottom: 0px;
+  padding: 0 0 0 0;
+  margin: 6px 6px 6px 6px;
+}
+	  
+.chatForm{
+  padding: 0 0 0 0;
+  margin: 6px 6px 6px 6px;
+}
+
+.chatText{
+  width: calc(100% - 75px);
+}
