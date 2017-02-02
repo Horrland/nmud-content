@@ -1,6 +1,6 @@
 ##### client-connected #####
 function main(...)
-  client:send('Loginmanager приветствует тебя!');
+  client:send('[Место под красивoe приветствие]');
   auth(0);
 end
 
@@ -8,7 +8,7 @@ function auth(trynum)
   if trynum == 0 then
     client:send('Введите свой логин или «новый» для создания новой учетной записи:');
   elseif trynum < 5 then
-    client:send("Попытка "..(trynum+1).."/5. Введите логин: ");
+    client:send("Попытка "..(trynum+1).." из 5. Введите логин: ");
   else
     client:interrupt();
     return;
@@ -29,7 +29,7 @@ function auth(trynum)
       
       if check then
         username = readed;
-        selectavatar();
+        mn_menu();
       else
         client:send('Пароль неверен.');
         auth(trynum+1);
@@ -42,22 +42,28 @@ function auth(trynum)
   end
 end
 
-function selectavatar(...)
+function mn_menu()
   client:send('Привет, '..username..'!');
+  client:send('[Место под _важные_ объявления.]');
+  local sel = select('Выбрать аватаp','Учетная запись', 'Что-то еще');
+  sel_avatar();
+end
+
+function sel_avatar(...)
   client:doAvatarSelection();
   
   client:send('=========');
 end
 
 function newprofile(...)
-  local name = npname(0);
-  local pwd = nppwd();
+  local name = np_name(0);
+  local pwd = np_pwd();
   
   accounting:addAccount(name,pwd);
   client:send('Учетная запись создана!');
 end
 
-function npname(trynum)
+function np_name(trynum)
   if trynum == 0 then
     client:send('Введите желаемый логин:');
   else
@@ -82,7 +88,7 @@ function npname(trynum)
   end
 end
 
-function nppwd()
+function np_pwd()
   client:send('Введите пароль: ');
   local pwd = client:read();
   client:send("Повторите пароль: ");
@@ -93,5 +99,22 @@ function nppwd()
   else
     client:send('Пароли не совпали. Попробуйте еще раз.');
     return nppwd();
+  end
+end
+
+function np_history()
+
+end
+
+
+function select(...)
+  if #arg == 0 then
+    return -1;
+  else
+    for i = 1, arg.n do
+      client:send(i..'. '..arg[i]);
+    end
+    
+    return -1;
   end
 end
