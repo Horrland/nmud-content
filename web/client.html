@@ -1,14 +1,17 @@
 <html>
   <head>
+	<title>nmud http demo</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#008000">
-	<meta name="msapplication-TileColor" content="#008000">
+	  
+	<meta name="theme-color" content="#001100">
+	<meta name="msapplication-TileColor" content="#001100">
+	
 	<meta name="msapplication-TileImage" content="/img/favicon.png" />
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="icon" href="/img/favicon.ico">
-	<link rel="icon" href="/img/favicon.png" sizes="192x192" />
 	<link rel="apple-touch-icon-precomposed" href="/img/favicon.png" />
+	<link rel="icon" href="/img/favicon.ico">
+	
+	<link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 	<header>
@@ -16,76 +19,18 @@
 	  <hr/>
 	</header>
 
-  <div class="chatList">
-    <ul class="answersList"></ul>
-  </div>
+	<div class="chatList">
+      <ul class="answersList"></ul>
+	</div>
   
-  <div class="chatBottom">
-	<hr class="chatHr"/>
-	<form class="chatForm">
-	  <input class="chatText" type="text" id="editText">
-	  <input class="chatBtn" type="button" value="Send">
-	</form>
-  </div>
+	<div class="chatBottom">
+	  <hr/>
+	  <form class="chatForm">
+		<input class="chatText" type="text" id="editText">
+		<input class="chatBtn" type="button" value="Send">
+	  </form>
+	</div>
   
-  	<script type="text/javascript" src="/js/client.js">
-	  var address = 'http://localhost:3000';
-  var txtSend = document.querySelector('.chatText');
-  var btnSend = document.querySelector('.chatBtn');
-  var lstAnss = document.querySelector('.answersList');
-  btnSend.addEventListener('click', post);
-  get();
-  
-  function post(){
-    var httpRequest = new XMLHttpRequest();
-
-	if (!httpRequest) {
-        alert('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
-        return false;
-    }
-	
-	httpRequest.open('POST', address+'/io?msg='+txtSend.value, true);
-	httpRequest.send(null);
-	
-	txtSend.value = "";
-	txtSend.focus();
-  }
-  
-  function get(){
-  	var httpRequest = new XMLHttpRequest();
-	
-	if (!httpRequest) {
-        alert('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
-        return false;
-    }
-	
-	httpRequest.onreadystatechange = function() {
-	  handleResponse(httpRequest);
-	};
-	
-	httpRequest.open('GET', address+'/io', true);
-	httpRequest.send(null);
-  }
-  
-  
-  function handleResponse(httpRequest){
-	if (httpRequest.readyState == 4) {
-      if (httpRequest.status == 200) {
-        appendElementToList("|"+httpRequest.responseText);
-      } else {
-	  	if(httpRequest.status != 0){
-          alert('С запросом возникла проблема.\nstate: '+httpRequest.readyState+'\nstat:'+httpRequest.status);
-		}
-      }
-	  get();
-    }
-  }
-  
-  function appendElementToList(text) {
-    var testElement = document.createElement('li');
-    testElement.textContent = text;
-	lstAnss.appendChild(testElement);
-  }
-	</script>
+  	<script type="text/javascript" src="/js/client.js"></script>
   </body>
 </html>

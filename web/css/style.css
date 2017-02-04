@@ -1,11 +1,14 @@
-header {
+body {
+  bgcolor: #111111;
+}
+
+header, h1, hr, div, ul, .chatForm {
   padding: 0 0 0 0;
   margin: 6px 6px 6px 6px;
 }
 
-h1 {
-  padding: 0 0 0 0;
-  margin: 6px 6px 6px 6px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
 }
 
 hr {
@@ -13,38 +16,40 @@ hr {
   border: none;
   color: #24890d;
   background-color: #24890d;
-  padding: 0 0 0 0;
-  margin: 6px 6px 6px 6px;
 }
 	  
 ul {
   list-style-type: none;
-  width: 100%;
-  padding: 0 0 0 0;
+  width: calc(100% - 24px);
 }
-	  
+
+button, input {
+  font-size: 100%;
+  max-width: 100%;
+  line-height: normal;
+}
+
 .chatList {
   position: absolute;
   overflow: auto;
-  width: 100%;
+  width: calc(100% - 24px);
   top: 48px;
   bottom: 40px;
-  margin: 6px 6px 6px 6px;
+  font-family: "Monospace", monospace, serif;
 }
 
 .chatBottom {
   position: absolute;
-  width: calc(100% - 16px);
   bottom: 0px;
-  padding: 0 0 0 0;
-  margin: 6px 6px 6px 6px;
-}
-	  
-.chatForm{
-  padding: 0 0 0 0;
-  margin: 6px 6px 6px 6px;
+  width: calc(100% - 24px);
 }
 
-.chatText{
-  width: calc(100% - 75px);
+.chatText {
+  width: calc(100% - 60px);
+  height: 24px;
+}
+
+.chattBtn {
+  width: 120px;
+  height: 24px;
 }
