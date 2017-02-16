@@ -5,7 +5,7 @@ var lstAnss = document.querySelector('.answersList');
 var layAnss = document.querySelector('.chatList');
 
 btnSend.addEventListener('click', post);
-get();
+history();
   
   function post(){
     var httpRequest = new XMLHttpRequest();
@@ -22,6 +22,24 @@ get();
 	txtSend.focus();
   }
   
+function history(){
+  var httpRequest = new XMLHttpRequest();
+
+  if (!httpRequest) {
+    notify('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
+    return false;
+  }
+	
+  httpRequest.onreadystatechange = function() {
+	handleResponse(httpRequest);
+  };
+	
+  httpRequest.open('GET', address+'/io?act=hist', true);
+  httpRequest.send(null);
+  
+  get();
+}
+
   function get(){
   	var httpRequest = new XMLHttpRequest();
 	
@@ -54,7 +72,7 @@ get();
   
 function appendElementToList(text) {
   var testElement = document.createElement('li');
-  testElement.textContent = text;
+  testElement.innerHTML = text;
   lstAnss.appendChild(testElement);
   layAnss.scrollTop = layAnss.scrollHeight;
 }

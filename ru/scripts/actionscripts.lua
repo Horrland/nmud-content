@@ -29,7 +29,7 @@ function auth(trynum)
       
       if check then
         username = readed;
-        mn_menu();
+        mn_menu(0);
       else
         client:send('Пароль неверен.');
         auth(trynum+1);
@@ -42,11 +42,26 @@ function auth(trynum)
   end
 end
 
-function mn_menu()
-  client:send('Привет, '..username..'!');
-  client:send('[Место под _важные_ объявления.]');
+function mn_menu(trynum)
+  if trynum < 1 then
+    client:send('Привет, '..username..'!');
+    client:send('[Место под _важные_ объявления.]');
+  end
+  
   local sel = select('Выбрать аватаp','Учетная запись', 'Что-то еще');
-  sel_avatar();
+  
+  if sel == 1 then
+    sel_avatar();
+  elseif sel == 2 then
+    client:send('Настройки учетки будут тут![BR]');
+    mn_menu(trynum+1);
+  elseif sel == 3 then
+    client:send('Разное будет тут![BR]');
+    mn_menu(trynum+1);
+  else
+    client:send('Это БАГ! Так и скажи iillyyaa2033.[BR]');
+    mn_menu(trynum+1);
+  end
 end
 
 function sel_avatar(...)
@@ -112,9 +127,27 @@ function select(...)
     return -1;
   else
     for i = 1, arg.n do
-      client:send(i..'. '..arg[i]);
+      arg[i] = i..'. '..arg[i];
+      client:send(arg[i]);
     end
     
-    return -1;
+    local correct = -1;
+    
+    while correct < 0 do
+      local readed = client:read();
+      
+      for j = 1, arg.n do
+        local found = string.find(arg[j],readed);
+        if found ~= nil then 
+          correct = j;
+        end
+      end
+      
+      if correct < 0 then
+        client:send('Попробуйте еще раз.');
+      end
+    end
+    
+    return correct;
   end
 end
