@@ -1,271 +1,300 @@
 <DomainEntity
-	id="0L"
-	shape=""
-	position="0.0:0.0:0.0"
-	string-name="Домен св. Лебеды"
-	params="">
-	<parts>
-	</parts>
-	<content>
-		<ContainerEntity
-			id="0L"
-			shape="-0.1 -0.1 0.0 -0.1 9.0 0.0 9.0 9.0 0.0 9.0 -0.1 0.0 "
-			position="0.0:0.0:0.0"
-			string-name="Купеч-й дом"
-			params="ContentOf:0L;">
-			<parts>
-				<Entity
-					id="0L"
-					shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 -0.1 0.0 0.0 -0.1 0.0 "
-					position="0.0:0.0:0.0"
-					string-name="Южная стена дома"
-					params="PartOf:0L;">
-					<parts>
-					</parts>
-				</Entity>
-				<Entity
-					id="0L"
-					shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 0.1 0.0 0.0 0.1 0.0 "
-					position="0.0:9.0:0.0"
-					string-name="Северная стена дома"
-					params="PartOf:0L;">
-					<parts>
-					</parts>
-				</Entity>
-				<Entity
-					id="0L"
-					shape="0.0 0.0 0.0 0.0 9.2 0.0 -0.1 9.2 0.0 -0.1 0.0 0.0 "
-					position="0.0:-0.1:0.0"
-					string-name="Западная стена дома"
-					params="PartOf:0L;">
-					<parts>
-					</parts>
-				</Entity>
-				<Entity
-					id="0L"
-					shape="0.0 0.0 0.0 0.0 9.2 0.0 0.1 9.2 0.0 0.1 0.0 0.0 "
-					position="9.0:-0.1:0.0"
-					string-name="Восточная стена дома"
-					params="PartOf:0L;">
-					<parts>
-					</parts>
-				</Entity>
-			</parts>
-			<content>
-				<ContainerEntity
-					id="0L"
-					shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 4.5 0.0 0.0 4.5 0.0 "
-					position="0.0:0.0:0.0"
-					string-name="Кухня"
-					params="PartOf:0L;">
-					<parts>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 0.01 0.0 0.0 0.01 0.0 "
-							position="0.0:0.0:0.0"
-							string-name="Южная стена кухни"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 -0.01 0.0 0.0 -0.01 0.0 "
-							position="0.0:4.5:0.0"
-							string-name="Северная стена кухни"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 4.5 0.0 0.01 4.5 0.0 0.01 0.0 0.0 "
-							position="0.0:0.0:0.0"
-							string-name="Западная стена кухни"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 4.5 0.0 -0.01 4.5 0.0 -0.01 0.0 0.0 "
-							position="3.0:0.0:0.0"
-							string-name="Восточная стена кухни"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
-							position="2.85:0.1:0.0"
-							string-name="Дверь в прихожую"
-							params="exitPointY:0.3;PartOf:0L;exitPointX:3.3;">
-							<parts>
-							</parts>
-						</Entity>
-					</parts>
-					<content>
-						<Creature
-							id="avatar-птицекрыл"
-							shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
-							position="2.0:2.0:0.0"
-							string-name="Птицекрыл"
-							params="ContentOf:0L;">
-							<parts>
-							</parts>
-						</Creature>
-					</content>
-				</ContainerEntity>
-				<ContainerEntity
-					id="0L"
-					shape="0.0 0.0 0.0 0.0 3.0 0.0 2.5 3.0 0.0 2.5 0.0 0.0 "
-					position="3.0:0.0:0.0"
-					string-name="Прихожая"
-					params="PartOf:0L;">
-					<parts>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
-							position="0.05:0.1:0.0"
-							string-name="Дверь в кухню"
-							params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 0.01 0.0 0.0 0.01 0.0 "
-							position="0.0:0.0:0.0"
-							string-name="Южная стена прихожей"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 -0.01 0.0 0.0 -0.01 0.0 "
-							position="0.0:3.0:0.0"
-							string-name="Северная стена прихожей"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
-							position="0.01:0.0:0.0"
-							string-name="Западная стена прихожей"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
-							position="2.5:0.0:0.0"
-							string-name="Восточная стена прихожей"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
-							position="2.35:0.1:0.0"
-							string-name="Дверь в комнату прислуги"
-							params="exitPointY:0.3;PartOf:0L;exitPointX:3.0;">
-							<parts>
-							</parts>
-						</Entity>
-					</parts>
-					<content>
-					</content>
-				</ContainerEntity>
-				<ContainerEntity
-					id="0L"
-					shape="0.0 0.0 0.0 0.0 3.0 0.0 3.5 3.0 0.0 3.5 0.0 0.0 "
-					position="5.5:0.0:0.0"
-					string-name="Комната прислуги"
-					params="PartOf:0L;">
-					<parts>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
-							position="0.05:0.1:0.0"
-							string-name="Дверь в прихожую"
-							params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 0.01 0.0 0.0 0.01 0.0 "
-							position="0.0:0.0:0.0"
-							string-name="Южная стена комнаты прислуги"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 -0.01 0.0 0.0 -0.01 0.0 "
-							position="0.0:3.0:0.0"
-							string-name="Северная стена комнаты прислуги"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
-							position="0.0:0.0:0.0"
-							string-name="Западная стена комнаты прислуги"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-						<Entity
-							id="0L"
-							shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
-							position="3.5:0.0:0.0"
-							string-name="Восточная стена комнаты прислуги"
-							params="PartOf:0L;">
-							<parts>
-							</parts>
-						</Entity>
-					</parts>
-					<content>
-						<Creature
-							id="creature-test-dog"
-							shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
-							position="2.5:2.0:0.0"
-							string-name="Пес"
-							params="ContentOf:0L;">
-							<parts>
-							</parts>
-						</Creature>
-						<Creature
-							id="avatar-румарука"
-							shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
-							position="1.0:1.0:0.0"
-							string-name="Румарука"
-							params="PartOf:0L;">
-							<parts>
-								<Entity
-									id="0L"
-									shape="0.1 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.0 "
-									position="0.0:0.0:0.0"
-									string-name="Топор"
-									params="PartOf:avatar-румарука;">
-									<parts>
-									</parts>
-								</Entity>
-							</parts>
-						</Creature>
-					</content>
-				</ContainerEntity>
-			</content>
-		</ContainerEntity>
-	</content>
+id="0L"
+shape=""
+position="0.0:0.0:0.0"
+string-name="Домен св. Лебеды"
+params=""
+tags="">
+<parts>
+</parts>
+<content>
+<ContainerEntity
+id="0L"
+shape="-0.1 -0.1 0.0 -0.1 9.0 0.0 9.0 9.0 0.0 9.0 -0.1 0.0 "
+position="0.0:0.0:0.0"
+string-name="Купеч-й дом"
+params="ContentOf:0L;"
+tags="">
+<parts>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 -0.1 0.0 0.0 -0.1 0.0 "
+position="0.0:0.0:0.0"
+string-name="Южная стена дома"
+params="PartOf:0L;"
+tags="wall   ">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 0.1 0.0 0.0 0.1 0.0 "
+position="0.0:9.0:0.0"
+string-name="Северная стена дома"
+params="PartOf:0L;"
+tags="wall   ">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 9.2 0.0 -0.1 9.2 0.0 -0.1 0.0 0.0 "
+position="0.0:-0.1:0.0"
+string-name="Западная стена дома"
+params="PartOf:0L;"
+tags="wall   ">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 9.2 0.0 0.1 9.2 0.0 0.1 0.0 0.0 "
+position="9.0:-0.1:0.0"
+string-name="Восточная стена дома"
+params="PartOf:0L;"
+tags="wall   ">
+<parts>
+</parts>
+</Entity>
+</parts>
+<content>
+<ContainerEntity
+id="0L"
+shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 4.5 0.0 0.0 4.5 0.0 "
+position="0.0:0.0:0.0"
+string-name="Кухня"
+params="ContentOf:0L;"
+tags="">
+<parts>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 0.01 0.0 0.0 0.01 0.0 "
+position="0.0:0.0:0.0"
+string-name="Южная стена кухни"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 -0.01 0.0 0.0 -0.01 0.0 "
+position="0.0:4.5:0.0"
+string-name="Северная стена кухни"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 4.5 0.0 0.01 4.5 0.0 0.01 0.0 0.0 "
+position="0.0:0.0:0.0"
+string-name="Западная стена кухни"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 4.5 0.0 -0.01 4.5 0.0 -0.01 0.0 0.0 "
+position="3.0:0.0:0.0"
+string-name="Восточная стена кухни"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
+position="2.85:0.1:0.0"
+string-name="Дверь в прихожую"
+params="exitPointY:0.3;PartOf:0L;exitPointX:3.3;"
+tags="door ">
+<parts>
+</parts>
+</Entity>
+</parts>
+<content>
+<Creature
+id="avatar-птицекрыл"
+shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
+position="2.0:2.0:0.0"
+string-name="Птицекрыл"
+params="ContentOf:0L;"
+tags="">
+<parts>
+</parts>
+</Creature>
+</content>
+</ContainerEntity>
+<ContainerEntity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 2.5 3.0 0.0 2.5 0.0 0.0 "
+position="3.0:0.0:0.0"
+string-name="Прихожая"
+params="ContentOf:0L;"
+tags="">
+<parts>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
+position="0.05:0.1:0.0"
+string-name="Дверь в кухню"
+params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+tags="door ">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 0.01 0.0 0.0 0.01 0.0 "
+position="0.0:0.0:0.0"
+string-name="Южная стена прихожей"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 -0.01 0.0 0.0 -0.01 0.0 "
+position="0.0:3.0:0.0"
+string-name="Северная стена прихожей"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
+position="0.01:0.0:0.0"
+string-name="Западная стена прихожей"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
+position="2.5:0.0:0.0"
+string-name="Восточная стена прихожей"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
+position="2.35:0.1:0.0"
+string-name="Дверь в комнату прислуги"
+params="exitPointY:0.3;PartOf:0L;exitPointX:3.0;"
+tags="door ">
+<parts>
+</parts>
+</Entity>
+</parts>
+<content>
+<Entity
+id="0L"
+shape="0.1 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.0 "
+position="1.5:0.3:0.0"
+string-name="Топор"
+params="ContentOf:0L;"
+tags="pickable  ">
+<parts>
+</parts>
+</Entity>
+</content>
+</ContainerEntity>
+<ContainerEntity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 3.5 3.0 0.0 3.5 0.0 0.0 "
+position="5.5:0.0:0.0"
+string-name="Комната прислуги"
+params="ContentOf:0L;"
+tags="">
+<parts>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
+position="0.05:0.1:0.0"
+string-name="Дверь в прихожую"
+params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+tags="door ">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 0.01 0.0 0.0 0.01 0.0 "
+position="0.0:0.0:0.0"
+string-name="Южная стена комнаты прислуги"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 -0.01 0.0 0.0 -0.01 0.0 "
+position="0.0:3.0:0.0"
+string-name="Северная стена комнаты прислуги"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
+position="0.0:0.0:0.0"
+string-name="Западная стена комнаты прислуги"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+<Entity
+id="0L"
+shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
+position="3.5:0.0:0.0"
+string-name="Восточная стена комнаты прислуги"
+params="PartOf:0L;"
+tags="">
+<parts>
+</parts>
+</Entity>
+</parts>
+<content>
+<Creature
+id="creature-test-dog"
+shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
+position="2.5:2.0:0.0"
+string-name="Пес"
+params="ContentOf:0L;"
+tags="">
+<parts>
+</parts>
+</Creature>
+<Creature
+id="avatar-румарука"
+shape="0.0 0.0 0.0 0.0 0.1 0.0 0.1 0.0 0.0 "
+position="0.5:0.3:0.0"
+string-name="Румарука"
+params="ContentOf:0L;"
+tags="">
+<parts>
+</parts>
+</Creature>
+</content>
+</ContainerEntity>
+</content>
+</ContainerEntity>
+</content>
 </DomainEntity>

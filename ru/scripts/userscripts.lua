@@ -47,17 +47,17 @@ function main(...)
       local entity = client:getVisibleEntityByName(rg);
       
       if entity ~= nil then
-        local eX = entity:getParam('exitPointX');
-        local eY = entity:getParam('exitPointY');
+        if entity:hasTag('door') then
+          local eX = entity:getParam('exitPointX');
+          local eY = entity:getParam('exitPointY');
         
-        --client:send('Successfully got coordinates');
-        
-        if eX ~= nil and eY ~= nil then
-          --client:send('Trying to move');
-          client:moveTo(eX, eY);
-          --client:send('Move successful!');
+          if eX ~= nil and eY ~= nil then
+            client:moveTo(eX, eY);
+          else
+            client:send('У двери нет координат выхода!');
+          end
         else
-          client:send('Нет координат выхода!');
+          client:send('Это не дверь.');
         end
       else
         client:send('Объект не существует');
@@ -101,6 +101,20 @@ function main(...)
       end
       rg = rg..arg[arg.n];
       descr = client:kill(rg);
+   end
+   client:send(descr);
+end
+##### выбросить #####
+function main(...)
+	if #arg == 0 then
+      descr = 'С текущим синтаксисом команда используется так: выбросить [предмет]';
+   else
+      rg = "";
+      for i = 1, arg.n-1 do
+         rg = rg..arg[i].." ";
+      end
+      rg = rg..arg[arg.n];
+      descr = client:dropItem(rg);
    end
    client:send(descr);
 end

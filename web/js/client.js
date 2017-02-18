@@ -1,4 +1,3 @@
-var address = 'http://localhost:3000';
 var txtSend = document.querySelector('.chatText');
 var btnSend = document.querySelector('.chatBtn');
 var lstAnss = document.querySelector('.answersList');
