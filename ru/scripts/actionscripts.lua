@@ -68,6 +68,7 @@ function sel_avatar(...)
   client:doAvatarSelection();
   
   client:send('=========');
+  client:openGame();
 end
 
 function newprofile(...)
