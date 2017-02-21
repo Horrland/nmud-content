@@ -60,6 +60,9 @@ function history(){
 	if (httpRequest.readyState == 4) {
       if (httpRequest.status == 200) {
         appendElementToList(httpRequest.responseText);
+		if(window.history.replaceState) {
+			window.history.replaceState({"id":100}, "document.title", "location.href");
+		}
       } else {
 	  	if(httpRequest.status != 0){
           notify('С запросом возникла проблема.\nstate: '+httpRequest.readyState+'\nstat:'+httpRequest.status);
