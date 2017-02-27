@@ -185,8 +185,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.4:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:1.0;ExitPointX:0.4;ContentOf:0L;"
-tags="">
+params="exitPointY:1.0;ExitPointX:0.4;ContentOf:0L;exitPointX:1.1;"
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -196,7 +196,7 @@ shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:0.0:0.0"
 string-name="Дверь на кухню"
 params="exitPointY:-1.0;exitPointX:0.4;ContentOf:0L;"
-tags="">
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -205,8 +205,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="2.9:2.5:0.0"
 string-name="Проход в гостинную"
-params="ContentOf:0L;"
-tags="">
+params="exitPointY:2.5;ContentOf:0L;exitPointX:2.9;"
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -445,8 +445,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="0.0:4.0:0.0"
 string-name="Проход в прихожую"
-params="ContentOf:0L;"
-tags="">
+params="exitPointY:4.0;ContentOf:0L;exitPointX:-1.0;"
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -506,7 +506,7 @@ shape="0.0 0.0 0.0 0.0 0.7 0.0 0.1 0.7 0.0 0.1 0.0 0.0 "
 position="2.85:0.1:0.0"
 string-name="Дверь в коридор"
 params="exitPointY:0.35;PartOf:0L;exitPointX:3.3;"
-tags="">
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -560,7 +560,7 @@ shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.35:0.0"
 string-name="Дверь в прихожую"
 params="exitPointY:1;exitPointX:0.4;ContentOf:0L;"
-tags="">
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -580,7 +580,7 @@ shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в кухню"
 params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
-tags="">
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -629,8 +629,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="2.35:0.1:0.0"
 string-name="Дверь в комнату прислуги"
-params="exitPointY:0.3;PartOf:0L;exitPointX:3.0;"
-tags="">
+params="exitPointY:0.3;PartOf:0L;exitPointX:4.0;"
+tags="door ">
 <parts>
 </parts>
 </Entity>
@@ -639,13 +639,23 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.5 0.0 0.8 1.5 0.0 0.8 0.0 0.0 "
 position="1.6:1.5:0.0"
 string-name="Лестница в подвал"
-params="PartOf:0L;"
-tags="">
+params="PartOf:0L;exitPointY:1.5;exitPointX:1.6;"
+tags="door ">
 <parts>
 </parts>
 </Entity>
 </parts>
 <content>
+<Creature
+id="avatar-румарука"
+shape="0.0 0.0 0.0 0.1 0.1 0.0 "
+position="0.2999999999999998:0.35:0.0"
+string-name="Румарука"
+params="ContentOf:0L;"
+tags="">
+<parts>
+</parts>
+</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -662,7 +672,7 @@ shape="0.0 0.0 0.0 0.0 0.6 0.0 0.1 0.6 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в прихожую"
 params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
-tags="">
+tags="door ">
 <parts>
 </parts>
 </Entity>
