@@ -185,7 +185,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.4:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:1.0;ExitPointX:0.4;exitPointX:1.1;ContentOf:0L;"
+params="exitPointY:1.0;exitPointX:1.1;ExitPointX:0.4;ContentOf:0L;"
 tags="door ">
 <parts>
 </parts>
@@ -670,7 +670,7 @@ tags="">
 id="0L"
 shape="0.0 0.0 0.0 0.0 0.6 0.0 0.1 0.6 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
-string-name="Дверь в прихожую"
+string-name="Дверь в коридор"
 params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
 tags="door ">
 <parts>
