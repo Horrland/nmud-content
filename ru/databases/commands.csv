@@ -1,0 +1,4 @@
+command|blocks|script_main|script_final
+посмотреть|1|description1 = nil|client:send(description1)
+осмотреть|3|description2 = nil|client:send(description2)
+осмотреться| | |local descr = client:getDescription();  client:send(descr)

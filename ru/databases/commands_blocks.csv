@@ -1,0 +1,4 @@
+id|preposition|maxlen|condition|script
+1|на|0|0|if arg[1] ~= nil then description1 = 'Это '..arg[1] else description1 = 'no argumens found' end
+3| |0|0|if arg[1] ~= nil then description2 = client:getDescriptionOf(arg[#arg]); else description2 = '404' end
+

@@ -185,7 +185,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.4:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:1.0;exitPointX:1.1;ExitPointX:0.4;ContentOf:0L;"
+params="exitPointY:1.0;ContentOf:0L;ExitPointX:0.4;exitPointX:1.1;"
 tags="door ">
 <parts>
 </parts>
@@ -195,7 +195,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:0.0:0.0"
 string-name="Дверь на кухню"
-params="exitPointY:-1.0;exitPointX:0.4;ContentOf:0L;"
+params="exitPointY:-1.0;ContentOf:0L;exitPointX:0.4;"
 tags="door ">
 <parts>
 </parts>
@@ -205,7 +205,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="2.9:2.5:0.0"
 string-name="Проход в гостинную"
-params="exitPointY:2.5;exitPointX:2.9;ContentOf:0L;"
+params="exitPointY:2.5;ContentOf:0L;exitPointX:2.9;"
 tags="door ">
 <parts>
 </parts>
@@ -445,7 +445,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="0.0:4.0:0.0"
 string-name="Проход в прихожую"
-params="exitPointY:4.0;exitPointX:-1.0;ContentOf:0L;"
+params="exitPointY:4.0;ContentOf:0L;exitPointX:-1.0;"
 tags="door ">
 <parts>
 </parts>
@@ -505,7 +505,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.7 0.0 0.1 0.7 0.0 0.1 0.0 0.0 "
 position="2.85:0.1:0.0"
 string-name="Дверь в коридор"
-params="exitPointY:0.35;PartOf:0L;exitPointX:3.3;"
+params="PartOf:0L;exitPointY:0.35;exitPointX:3.3;"
 tags="door ">
 <parts>
 </parts>
@@ -559,7 +559,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.35:0.0"
 string-name="Дверь в прихожую"
-params="exitPointY:1;exitPointX:0.4;ContentOf:0L;"
+params="exitPointY:1;ContentOf:0L;exitPointX:0.4;"
 tags="door ">
 <parts>
 </parts>
@@ -579,7 +579,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в кухню"
-params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+params="PartOf:0L;exitPointY:0.3;exitPointX:-1.0;"
 tags="door ">
 <parts>
 </parts>
@@ -629,7 +629,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="2.35:0.1:0.0"
 string-name="Дверь в комнату прислуги"
-params="exitPointY:0.3;PartOf:0L;exitPointX:4.0;"
+params="PartOf:0L;exitPointY:0.3;exitPointX:4.0;"
 tags="door ">
 <parts>
 </parts>
@@ -639,7 +639,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.5 0.0 0.8 1.5 0.0 0.8 0.0 0.0 "
 position="1.6:1.5:0.0"
 string-name="Лестница в подвал"
-params="exitPointY:1.5;PartOf:0L;exitPointX:1.6;"
+params="PartOf:0L;exitPointY:1.5;exitPointX:1.6;"
 tags="door ">
 <parts>
 </parts>
@@ -671,7 +671,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.6 0.0 0.1 0.6 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в коридор"
-params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+params="PartOf:0L;exitPointY:0.3;exitPointX:-1.0;"
 tags="door ">
 <parts>
 </parts>
@@ -1033,7 +1033,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="4.1:4.9:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:5.3;exitPointX:4.5;ContentOf:0L;"
+params="exitPointY:5.3;ContentOf:0L;exitPointX:4.5;"
 tags="">
 <parts>
 </parts>
@@ -1043,7 +1043,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="0.0:2.1:0.0"
 string-name="Дверь в малый зал"
-params="exitPointY:2.5;exitPointX:-0.3;ContentOf:0L;"
+params="exitPointY:2.5;ContentOf:0L;exitPointX:-0.3;"
 tags="">
 <parts>
 </parts>
@@ -1053,7 +1053,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="4.1:0.0:0.0"
 string-name="Дверь в кухню"
-params="exitPointY:-1;exitPointX:4.5;ContentOf:0L;"
+params="exitPointY:-1;ContentOf:0L;exitPointX:4.5;"
 tags="">
 <parts>
 </parts>
@@ -1245,7 +1245,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="3.9:1.1:0.0"
 string-name="Дверь в главный зал"
-params="exitPointY:1.5;exitPointX:5;ContentOf:0L;"
+params="exitPointY:1.5;ContentOf:0L;exitPointX:5;"
 tags="">
 <parts>
 </parts>
