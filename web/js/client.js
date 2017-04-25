@@ -6,7 +6,7 @@ var layAnss = document.querySelector('.chatList');
 btnSend.addEventListener('click', post);
 history();
   
-  function post(){
+function post(){
     var httpRequest = new XMLHttpRequest();
 
 	if (!httpRequest) {
@@ -80,5 +80,5 @@ function appendElementToList(text) {
 }
 
 function notify(text){
-  aler(text);
+  appendElementToList(text);
 }

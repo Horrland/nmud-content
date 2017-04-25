@@ -1,0 +1,16 @@
+<instance>
+
+	<database
+		name="main"
+		port="10002"/>
+
+	<clientmanager
+		name="demo"
+		port="10003"/>
+
+	<domain
+		name="demo1"
+		port="10004"
+		data="ru/maps/iillyyaa2033-domain-test.xml"/>
+	
+</instance>

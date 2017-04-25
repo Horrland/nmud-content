@@ -1,0 +1,53 @@
+<instance>
+
+	<database>
+		<name>main</name>
+		<port>10000</port>
+	</database>
+	
+	<clientmanager>
+		<name>demo</name>
+		<port>10001</port>
+	</clientmanager>
+	
+	<domain>
+		<name>demo1</name>
+		<port>10002</port>
+		<data>ru/maps/iillyyaa2033-domain-test.xml</data>
+	</domain>
+	
+	<chemist>
+		<name>main</name>
+		<port>10003</port>
+	</chemist>
+	
+	<physics>
+		<name>main</name>
+		<port>10004</port>
+	</physics>
+	
+	<biology>
+		<name>main</name>
+		<port>10005</port>
+	</biology>
+	
+	<ai>
+		<name>main</name>
+		<port>10006</port>
+	</ai>
+	
+	<mechanics>
+		<name>main</name>
+		<port>10007</port>
+	</mechanics>
+	
+	<politics>
+		<name>main</name>
+		<port>10008</port>
+	</politics>
+	
+	<economics>
+		<name>main</name>
+		<port>10009</port>
+	</economics>
+</instance>
