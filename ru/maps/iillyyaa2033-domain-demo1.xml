@@ -4,7 +4,7 @@ shape=""
 position="0.0:0.0:0.0"
 string-name="Домен св. Лебеды"
 params=""
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -14,7 +14,7 @@ shape="-0.1 -0.1 0.0 -0.1 9.0 0.0 9.0 9.0 0.0 9.0 -0.1 0.0 "
 position="0.0:0.0:0.0"
 string-name="Купеч-й дом"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -22,7 +22,7 @@ shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 -0.1 0.0 0.0 -0.1 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -32,7 +32,7 @@ shape="0.0 0.0 0.0 9.0 0.0 0.0 9.0 0.1 0.0 0.0 0.1 0.0 "
 position="0.0:9.0:0.0"
 string-name="Северная стена дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -42,7 +42,7 @@ shape="0.0 0.0 0.0 0.0 9.2 0.0 -0.1 9.2 0.0 -0.1 0.0 0.0 "
 position="0.0:-0.1:0.0"
 string-name="Западная стена дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -52,7 +52,7 @@ shape="0.0 0.0 0.0 0.0 9.2 0.0 0.1 9.2 0.0 0.1 0.0 0.0 "
 position="9.0:-0.1:0.0"
 string-name="Восточная стена дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -64,7 +64,7 @@ shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 4.5 0.0 0.0 4.5 0.0 "
 position="0.0:4.5:0.0"
 string-name="Прихожая"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -72,7 +72,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 3.0 0.01 0.0 3.0 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -82,7 +82,7 @@ shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:4.5:0.0"
 string-name="Северная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -92,7 +92,7 @@ shape="0.0 0.0 0.0 0.0 4.5 0.0 0.01 4.5 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -100,7 +100,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.03 0.5 0.0 0.03 0.0 0.0 "
 position="0.0:2.9:0.0"
 string-name="Портрет предка"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -112,7 +112,7 @@ shape="0.0 0.0 0.0 -0.01 0.0 0.0 -0.01 4.5 0.0 0.0 4.5 0.0 "
 position="3.0:0.0:0.0"
 string-name="Восточная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -124,7 +124,7 @@ shape="0.0 0.0 0.0 0.0 1.5 0.0 0.6 1.5 0.0 0.6 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Шкаф"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -134,7 +134,7 @@ shape=""
 position="0.0:0.0:0.0"
 string-name="Скелет"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -146,7 +146,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="0.0:1.8:0.0"
 string-name="Колонна"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -156,7 +156,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="0.0:4.1:0.0"
 string-name="Колонна"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -166,7 +166,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="2.6:1.8:0.0"
 string-name="Колонна"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -176,7 +176,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="2.6:4.1:0.0"
 string-name="Колонна"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -185,8 +185,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.4:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:1.0;ContentOf:0L;ExitPointX:0.4;exitPointX:1.1;"
-tags="door ">
+params="exitPointY:5;ExitPointX:;exitPointX:1.1;ContentOf:0L;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -195,8 +195,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:0.0:0.0"
 string-name="Дверь на кухню"
-params="exitPointY:-1.0;ContentOf:0L;exitPointX:0.4;"
-tags="door ">
+params="exitPointY:-1.0;exitPointX:0.4;ContentOf:0L;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -205,8 +205,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="2.9:2.5:0.0"
 string-name="Проход в гостинную"
-params="exitPointY:2.5;ContentOf:0L;exitPointX:2.9;"
-tags="door ">
+params="exitPointY:3.0;exitPointX:3.5;ContentOf:0L;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -218,7 +218,7 @@ shape="0.0 0.0 0.0 0.0 6.0 0.0 6.0 6.0 0.0 6.0 0.0 0.0 "
 position="3.0:3.0:0.0"
 string-name="Гостиная"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -226,7 +226,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 6.0 0.01 0.0 6.0 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена гостиной"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -234,7 +234,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 1.3 0.03 0.0 1.3 0.0 0.0 "
 position="3.6:0.0:0.0"
 string-name="Картина"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -246,7 +246,7 @@ shape="0.0 0.0 0.0 6.0 0.0 0.0 6.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:6.0:0.0"
 string-name="Северная стена гостиной"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -254,7 +254,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="1.0:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -264,7 +264,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="2.6:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -274,7 +274,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="4.4:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -286,7 +286,7 @@ shape="0.0 0.0 0.0 0.0 6.0 0.0 0.01 6.0 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена гостиной"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -294,7 +294,7 @@ shape="0.0 0.0 0.0 0.0 1.1 0.0 0.03 1.1 0.0 0.03 0.0 0.0 "
 position="0.0:1.5:0.0"
 string-name="Пейзаж"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -306,7 +306,7 @@ shape="0.0 0.0 0.0 -0.01 0.0 0.0 -0.01 6.0 0.0 0.0 6.0 0.0 "
 position="6.0:0.0:0.0"
 string-name="Восточная стена гостиной"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -318,7 +318,7 @@ shape="0.0 0.0 0.0 0.0 1.5 0.0 0.6 1.5 0.0 0.6 0.0 0.0 "
 position="2.2:0.6:0.0"
 string-name="Камин"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -328,7 +328,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="5.1:0.5:0.0"
 string-name="Диван"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -338,7 +338,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="4.2:2.9:0.0"
 string-name="Кресло"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -348,7 +348,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="3.1:3.6:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -358,7 +358,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="3.1:4.6:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -368,7 +368,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="4.2:5.5:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -378,7 +378,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="5.2:4.6:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -388,7 +388,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.5 0.5 0.0 0.5 0.0 0.0 "
 position="5.2:3.6:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -398,7 +398,7 @@ shape="0.0 0.0 0.0 0.0 0.9 0.0 0.5 0.9 0.0 0.5 0.0 0.0 "
 position="0.0:2.7:0.0"
 string-name="Комод"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -410,7 +410,7 @@ shape="0.0 0.0 0.0 0.0 1.8 0.0 1.2 1.8 0.0 1.2 0.0 0.0 "
 position="3.8:3.5:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -422,7 +422,7 @@ shape="0.0 0.0 0.0 0.0 0.3 0.0 0.9 0.3 0.0 0.9 0.0 0.0 "
 position="0.0:5.7:0.0"
 string-name="Постамент"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -434,7 +434,7 @@ shape="0.0 0.0 0.0 0.0 0.3 0.0 0.8 0.3 0.0 0.8 0.0 0.0 "
 position="1.7:5.7:0.0"
 string-name="Постамент"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -445,8 +445,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.0 0.0 0.1 1.0 0.0 0.1 0.0 0.0 "
 position="0.0:4.0:0.0"
 string-name="Проход в прихожую"
-params="exitPointY:4.0;ContentOf:0L;exitPointX:-1.0;"
-tags="door ">
+params="exitPointY:4.0;exitPointX:-1.0;ContentOf:0L;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -458,7 +458,7 @@ shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 4.5 0.0 0.0 4.5 0.0 "
 position="0.0:0.0:0.0"
 string-name="Кухня"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -466,7 +466,7 @@ shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 0.01 0.0 0.0 0.01 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -476,7 +476,7 @@ shape="0.0 0.0 0.0 3.0 0.0 0.0 3.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:4.5:0.0"
 string-name="Северная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -486,7 +486,7 @@ shape="0.0 0.0 0.0 0.0 4.5 0.0 0.01 4.5 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -496,7 +496,7 @@ shape="0.0 0.0 0.0 0.0 4.5 0.0 -0.01 4.5 0.0 -0.01 0.0 0.0 "
 position="3.0:0.0:0.0"
 string-name="Восточная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -505,8 +505,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.7 0.0 0.1 0.7 0.0 0.1 0.0 0.0 "
 position="2.85:0.1:0.0"
 string-name="Дверь в коридор"
-params="PartOf:0L;exitPointY:0.35;exitPointX:3.3;"
-tags="door ">
+params="exitPointY:0.35;PartOf:0L;exitPointX:3.5;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -518,7 +518,7 @@ shape="0.0 0.0 0.0 0.0 0.7 0.0 0.7 0.7 0.0 0.7 0.0 0.0 "
 position="2.3:1.0:0.0"
 string-name="Бочка"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -528,7 +528,7 @@ shape="0.0 0.0 0.0 0.0 2.5 0.0 1.0 2.5 0.0 1.0 0.0 0.0 "
 position="2.0:2.0:0.0"
 string-name="Печь"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -538,7 +538,7 @@ shape="0.0 0.0 0.0 0.0 3.9 0.0 0.8 3.9 0.0 0.8 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -548,7 +548,7 @@ shape="0.0 0.0 0.0 0.0 0.6 0.0 0.6 0.6 0.0 0.6 0.0 0.0 "
 position="0.0:3.9:0.0"
 string-name="Бочка с рукомойником"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -559,11 +559,21 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.35:0.0"
 string-name="Дверь в прихожую"
-params="exitPointY:1;ContentOf:0L;exitPointX:0.4;"
-tags="door ">
+params="exitPointY:5;exitPointX:0.4;ContentOf:0L;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
+<Creature
+id="avatar-птицекрыл"
+shape="0.0 0.0 0.0 0.1 0.1 0.0 "
+position="0.01:2.99:0.0"
+string-name="Птицекрыл"
+params="ContentOf:0L;"
+tags=""material="">
+<parts>
+</parts>
+</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -572,15 +582,15 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 2.5 3.0 0.0 2.5 0.0 0.0 "
 position="3.0:0.0:0.0"
 string-name="Коридор"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в кухню"
-params="PartOf:0L;exitPointY:0.3;exitPointX:-1.0;"
-tags="door ">
+params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -590,7 +600,7 @@ shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 0.01 0.0 0.0 0.01 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -600,7 +610,7 @@ shape="0.0 0.0 0.0 2.5 0.0 0.0 2.5 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:3.0:0.0"
 string-name="Северная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -610,7 +620,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
 position="0.01:0.0:0.0"
 string-name="Западная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -620,7 +630,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
 position="2.5:0.0:0.0"
 string-name="Восточная стена прихожей"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -629,8 +639,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="2.35:0.1:0.0"
 string-name="Дверь в комнату прислуги"
-params="PartOf:0L;exitPointY:0.3;exitPointX:4.0;"
-tags="door ">
+params="exitPointY:0.3;PartOf:0L;exitPointX:4.0;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -639,23 +649,13 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 1.5 0.0 0.8 1.5 0.0 0.8 0.0 0.0 "
 position="1.6:1.5:0.0"
 string-name="Лестница в подвал"
-params="PartOf:0L;exitPointY:1.5;exitPointX:1.6;"
-tags="door ">
+params="exitPointY:1.5;PartOf:0L;exitPointX:1.6;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
 </parts>
 <content>
-<Creature
-id="avatar-румарука"
-shape="0.0 0.0 0.0 0.1 0.1 0.0 "
-position="0.2999999999999998:0.35:0.0"
-string-name="Румарука"
-params="ContentOf:0L;"
-tags="">
-<parts>
-</parts>
-</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -664,15 +664,15 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 3.5 3.0 0.0 3.5 0.0 0.0 "
 position="5.5:0.0:0.0"
 string-name="Комната прислуги"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
 shape="0.0 0.0 0.0 0.0 0.6 0.0 0.1 0.6 0.0 0.1 0.0 0.0 "
 position="0.05:0.1:0.0"
 string-name="Дверь в коридор"
-params="PartOf:0L;exitPointY:0.3;exitPointX:-1.0;"
-tags="door ">
+params="exitPointY:0.3;PartOf:0L;exitPointX:-1.0;"
+tags="door "material="beauty:красивая;color:зеленая;">
 <parts>
 </parts>
 </Entity>
@@ -682,7 +682,7 @@ shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 0.01 0.0 0.0 0.01 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена комнаты прислуги"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -692,7 +692,7 @@ shape="0.0 0.0 0.0 3.5 0.0 0.0 3.5 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:3.0:0.0"
 string-name="Северная стена комнаты прислуги"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -702,7 +702,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена комнаты прислуги"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -712,7 +712,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 -0.01 3.0 0.0 -0.01 0.0 0.0 "
 position="3.5:0.0:0.0"
 string-name="Восточная стена комнаты прислуги"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -724,7 +724,7 @@ shape="0.0 0.0 0.0 0.0 0.9 0.0 2.0 0.9 0.0 2.0 0.0 0.0 "
 position="1.5:2.1:0.0"
 string-name="Кровать"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -734,7 +734,7 @@ shape="0.0 0.0 0.0 0.0 0.9 0.0 2.0 0.9 0.0 2.0 0.0 0.0 "
 position="1.5:0.0:0.0"
 string-name="Кровать"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -744,7 +744,7 @@ shape="0.0 0.0 0.0 0.0 1.0 0.0 0.6 1.0 0.0 0.6 0.0 0.0 "
 position="0.0:0.8:0.0"
 string-name="Сундук"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -756,7 +756,7 @@ shape="0.0 0.0 0.0 0.0 0.5 0.0 0.8 0.5 0.0 0.8 0.0 0.0 "
 position="0.0:2.5:0.0"
 string-name="Сундучок"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -764,6 +764,16 @@ tags="">
 </ContainerEntity>
 </content>
 </ContainerEntity>
+<Creature
+id="avatar-румарука"
+shape="0.0 0.0 0.0 0.1 0.1 0.0 "
+position="1.1:8.0:0.0"
+string-name="Румарука"
+params="ContentOf:0L;"
+tags=""material="">
+<parts>
+</parts>
+</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -772,7 +782,7 @@ shape="0.0 0.0 0.0 0.0 6.0 0.0 20.0 6.0 0.0 20.0 0.0 0.0 "
 position="0.0:9.0:0.0"
 string-name="Улица"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 <content>
@@ -781,8 +791,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:0.0:0.0"
 string-name="Дверь в купеческий дом"
-params="ContentOf:0L;"
-tags="">
+params="exitPointY:-1.0;ContentOf:0L;exitPointX:1.1;"
+tags="door "material="">
 <parts>
 </parts>
 </Entity>
@@ -794,7 +804,7 @@ shape="0.0 0.0 0.0 0.0 8.0 0.0 11.0 8.0 0.0 11.0 0.0 0.0 "
 position="9.0:1.0:0.0"
 string-name="Кабак"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -802,7 +812,7 @@ shape="0.0 0.0 0.0 0.0 0.1 0.0 11.0 0.1 0.0 11.0 0.0 0.0 "
 position="0.0:8.0:0.0"
 string-name="Северная стена кабака"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -812,7 +822,7 @@ shape="0.0 0.0 0.0 11.0 0.0 0.0 11.0 -0.1 0.0 0.0 -0.1 0.0 "
 position="1.0:0.0:0.0"
 string-name="Южная стена кабака"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -822,7 +832,7 @@ shape="0.0 0.0 0.0 0.0 8.2 0.0 0.1 8.2 0.0 0.1 0.0 0.0 "
 position="-0.1:-0.1:0.0"
 string-name="Западная стена кабака"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -832,7 +842,7 @@ shape="0.0 0.0 0.0 0.0 8.2 0.0 0.1 8.2 0.0 0.1 0.0 0.0 "
 position="11.0:-0.1:0.0"
 string-name="Восточная стена кабака"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -844,7 +854,7 @@ shape="0.0 1.0 0.0 0.0 5.0 0.0 7.0 5.0 0.0 7.0 0.0 0.0 1.0 0.0 0.0 "
 position="4.0:3.0:0.0"
 string-name="Главный зал"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -852,7 +862,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 7.0 0.01 0.0 7.0 0.0 0.0 "
 position="0.0:5.0:0.0"
 string-name="Северная стена главного зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -860,7 +870,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="0.7:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -870,7 +880,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="2.7:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -880,7 +890,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="5.7:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -892,7 +902,7 @@ shape="0.0 0.0 0.0 6.0 0.0 0.0 6.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="1.0:0.0:0.0"
 string-name="Южная стена главного зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -902,7 +912,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 0.01 4.0 0.0 0.01 0.0 0.0 "
 position="0.0:1.0:0.0"
 string-name="Западная стена главного дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -912,7 +922,7 @@ shape="0.0 0.0 0.0 0.0 5.0 0.0 0.01 5.0 0.0 0.01 0.0 0.0 "
 position="7.0:0.0:0.0"
 string-name="Восточная стена главного дома"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -922,7 +932,7 @@ shape="0.0 0.0 0.0 -1.0 1.0 0.0 -0.99 1.01 0.0 0.01 0.01 0.0 "
 position="1.0:0.0:0.0"
 string-name="Юго - западная стена главного зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -934,7 +944,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 4.0 0.4 0.0 4.0 0.0 0.0 "
 position="0.0:1.0:0.0"
 string-name="Стойка трактирщика"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -944,7 +954,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="0.0:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -954,7 +964,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="1.6:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -964,7 +974,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="0.55:3.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -974,7 +984,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="2.0:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -984,7 +994,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="3.6:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -994,7 +1004,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="2.55:3.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1004,7 +1014,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="5.0:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1014,7 +1024,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.4 2.0 0.0 0.4 0.0 0.0 "
 position="6.6:3.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1024,7 +1034,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="5.55:3.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1033,8 +1043,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="4.1:4.9:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:5.3;ContentOf:0L;exitPointX:4.5;"
-tags="">
+params="exitPointY:5.3;exitPointX:4.5;ContentOf:0L;"
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1043,8 +1053,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="0.0:2.1:0.0"
 string-name="Дверь в малый зал"
-params="exitPointY:2.5;ContentOf:0L;exitPointX:-0.3;"
-tags="">
+params="exitPointY:2.5;exitPointX:-0.3;ContentOf:0L;"
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1053,8 +1063,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="4.1:0.0:0.0"
 string-name="Дверь в кухню"
-params="exitPointY:-1;ContentOf:0L;exitPointX:4.5;"
-tags="">
+params="exitPointY:-1;exitPointX:4.5;ContentOf:0L;"
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1064,7 +1074,7 @@ shape="0.0 0.0 0.0 0.0 1.0 0.0 2.0 1.0 0.0 2.0 0.0 0.0 "
 position="5.0:0.0:0.0"
 string-name="Лестница на второй этаж"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1074,7 +1084,7 @@ shape="0.0 0.0 0.0 0.0 1.0 0.0 0.4 1.0 0.0 0.4 0.0 0.0 "
 position="5.0:1.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1084,7 +1094,7 @@ shape="0.0 0.0 0.0 0.0 1.0 0.0 0.4 1.0 0.0 0.4 0.0 0.0 "
 position="6.6:1.0:0.0"
 string-name="Скамья"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1094,7 +1104,7 @@ shape="0.0 0.0 0.0 0.0 1.0 0.0 0.9 1.0 0.0 0.9 0.0 0.0 "
 position="5.55:1.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1104,7 +1114,7 @@ shape="0.0 0.0 0.0 0.0 0.3 0.0 1.0 0.3 0.0 1.0 0.0 0.0 "
 position="3.0:0.0:0.0"
 string-name="Шкаф"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1114,7 +1124,7 @@ shape="0.0 0.0 0.0 -0.3 0.3 0.0 1.0 0.3 0.0 1.0 0.0 0.0 "
 position="1.0:0.0:0.0"
 string-name="Шкаф"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1124,7 +1134,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="1.0:1.5:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1134,7 +1144,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="2.3:1.5:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1146,7 +1156,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 4.0 4.0 0.0 4.0 0.0 0.0 "
 position="0.0:4.0:0.0"
 string-name="Малый зал"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1154,7 +1164,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 4.0 0.01 0.0 4.0 0.0 0.0 "
 position="0.0:4.0:0.0"
 string-name="Северная стена малого зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1162,7 +1172,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="0.7:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1172,7 +1182,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.6 0.03 0.0 0.6 0.0 0.0 "
 position="2.7:0.0:0.0"
 string-name="Окно"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1184,7 +1194,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 4.0 0.01 0.0 4.0 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена малого зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1192,7 +1202,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.5 0.03 0.0 0.5 0.0 0.0 "
 position="0.5:0.0:0.0"
 string-name="Картина"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1202,7 +1212,7 @@ shape="0.0 0.0 0.0 0.0 0.03 0.0 0.5 0.03 0.0 0.5 0.0 0.0 "
 position="3.0:0.0:0.0"
 string-name="Картина"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1214,7 +1224,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 0.01 4.0 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена малого зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1222,7 +1232,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.03 2.0 0.0 0.03 0.0 0.0 "
 position="0.0:1.0:0.0"
 string-name="Картина"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1234,7 +1244,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 0.01 4.0 0.0 0.01 0.0 0.0 "
 position="4.0:0.0:0.0"
 string-name="Восточная стена малого зала"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1245,8 +1255,8 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.8 0.0 0.1 0.8 0.0 0.1 0.0 0.0 "
 position="3.9:1.1:0.0"
 string-name="Дверь в главный зал"
-params="exitPointY:1.5;ContentOf:0L;exitPointX:5;"
-tags="">
+params="exitPointY:1.5;exitPointX:5;ContentOf:0L;"
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1256,7 +1266,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="2.55:2.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1266,7 +1276,7 @@ shape="0.0 0.0 0.0 0.0 2.0 0.0 0.9 2.0 0.0 0.9 0.0 0.0 "
 position="0.55:2.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1276,7 +1286,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="0.0:2.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1286,7 +1296,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="1.6:2.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1296,7 +1306,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="2.0:2.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1306,7 +1316,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="3.6:2.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1316,7 +1326,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="0.0:3.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1326,7 +1336,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="1.6:3.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1336,7 +1346,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="2.0:3.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1346,7 +1356,7 @@ shape="0.0 0.0 0.0 0.0 0.4 0.0 0.4 0.4 0.0 0.4 0.0 0.0 "
 position="3.6:3.3:0.0"
 string-name="Стул"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1356,7 +1366,7 @@ shape="0.0 0.0 0.0 0.0 0.6 0.0 0.6 0.6 0.0 0.6 0.0 0.0 "
 position="1.7:0.0:0.0"
 string-name="Кресло"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1368,7 +1378,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 4.0 4.0 0.0 5.0 3.0 0.0 5.0 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Склад"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1376,7 +1386,7 @@ shape="0.0 0.0 0.0 4.0 0.0 0.0 4.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:4.0:0.0"
 string-name="Северная стена склада"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1386,7 +1396,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
 position="4.99:0.0:0.0"
 string-name="Восточная стена склада"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1396,7 +1406,7 @@ shape="0.0 0.0 0.0 0.0 4.0 0.0 0.01 4.0 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена склада"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1406,7 +1416,7 @@ shape="0.0 0.0 0.0 0.0 0.01 0.0 5.0 0.01 0.0 5.0 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Южная стена склада"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1416,7 +1426,7 @@ shape="0.0 0.0 0.0 -0.01 -0.01 0.0 -1.01 0.99 0.0 -1.0 1.0 0.0 "
 position="5.0:3.0:0.0"
 string-name="Северо - восточная стена склада"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1430,7 +1440,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 6.0 3.0 0.0 6.0 0.0 0.0 "
 position="5.0:0.0:0.0"
 string-name="Кухня"
 params="ContentOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 <Entity
 id="0L"
@@ -1438,7 +1448,7 @@ shape="0.0 0.0 0.0 6.0 0.0 0.0 6.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.0:3.0:0.0"
 string-name="Северная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1448,7 +1458,7 @@ shape="0.0 0.0 0.0 6.0 0.0 0.0 6.0 -0.01 0.0 0.0 -0.01 0.0 "
 position="0.01:0.0:0.0"
 string-name="Южная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1458,7 +1468,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Западная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>
@@ -1468,7 +1478,7 @@ shape="0.0 0.0 0.0 0.0 3.0 0.0 0.01 3.0 0.0 0.01 0.0 0.0 "
 position="5.99:0.0:0.0"
 string-name="Восточная стена кухни"
 params="PartOf:0L;"
-tags="">
+tags=""material="">
 <parts>
 </parts>
 </Entity>

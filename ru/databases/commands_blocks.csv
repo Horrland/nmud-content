@@ -2,3 +2,4 @@ id|preposition|maxlen|condition|script
 1|на|0|0|description = 'Это '..arg[1]
 2|к|0|0|description = client:moveTo(arg[#arg])
 3| |0|0|description = client:getDescriptionOf(arg[#arg])
+4|в|0|0|local entity = client:getVisibleEntityByName(arg[#arg]);¡n      ¡nif entity ~= nil then¡n  if entity:hasTag('door') then¡n    local eX = entity:getParam('exitPointX');¡n    local eY = entity:getParam('exitPointY');¡n¡n    if eX ~= nil and eY ~= nil then¡n        client:moveTo(eX, eY);¡n      else¡n        client:send('У двери нет координат выхода!');¡n      end¡n¡n    else¡n      client:send('Это не дверь.');¡n    end¡n¡nelse¡n  client:send('Объект не существует');¡nend

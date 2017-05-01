@@ -11,6 +11,6 @@
 	<domain
 		name="demo1"
 		port="10004"
-		data="ru/maps/iillyyaa2033-domain-test.xml"/>
+		data="ru/maps/iillyyaa2033-domain-demo1.xml"/>
 	
 </instance>
