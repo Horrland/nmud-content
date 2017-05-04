@@ -185,7 +185,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.4:0.0"
 string-name="Дверь на улицу"
-params="exitPointY:5;ExitPointX:;exitPointX:1.1;ContentOf:0L;"
+params="exitPointY:5;exitPointX:1.1;ExitPointX:;ContentOf:0L;"
 tags="door "material="">
 <parts>
 </parts>
@@ -210,6 +210,16 @@ tags="door "material="">
 <parts>
 </parts>
 </Entity>
+<Creature
+id="avatar-румарука"
+shape="0.0 0.0 0.0 0.1 0.1 0.0 "
+position="1.1:8.0:0.0"
+string-name="Румарука"
+params="ContentOf:0L;"
+tags=""material="">
+<parts>
+</parts>
+</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -764,16 +774,6 @@ tags=""material="">
 </ContainerEntity>
 </content>
 </ContainerEntity>
-<Creature
-id="avatar-румарука"
-shape="0.0 0.0 0.0 0.1 0.1 0.0 "
-position="1.1:8.0:0.0"
-string-name="Румарука"
-params="ContentOf:0L;"
-tags=""material="">
-<parts>
-</parts>
-</Creature>
 </content>
 </ContainerEntity>
 <ContainerEntity
@@ -791,7 +791,7 @@ id="0L"
 shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:0.0:0.0"
 string-name="Дверь в купеческий дом"
-params="exitPointY:-1.0;ContentOf:0L;exitPointX:1.1;"
+params="exitPointY:-1.0;exitPointX:1.1;ContentOf:0L;"
 tags="door "material="">
 <parts>
 </parts>

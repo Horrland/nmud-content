@@ -3,5 +3,5 @@ command|blocks|script_main|script_final
 осмотреть|3|description = nil|client:send(description)
 осмотреться| | |local descr = client:getDescription();  client:send(descr)
 подойти|2| |description = nil
-выйти|4||description = nil
-написать|5 6|haveMel = true|client:send('So, have we MEL? - '..haveMel) 
+выйти|4|description = nil|null
+написать|5 6|if sign~=nil and taget ~= nil then¡n  client:send('Команда сработала, да.'..sign.." "..target)¡nelse¡n  if sign~=nil then client:send('Что написать?');¡n  else client:send('Где написать?');¡nend|null
