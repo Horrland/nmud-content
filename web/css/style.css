@@ -29,10 +29,15 @@ button, input {
   line-height: normal;
 }
 
+.chatHead {
+	height: 72px;
+}
+
 .chatList {
   position: absolute;
   overflow: auto;
   width: calc(100% - 24px);
+  height: auto !important;
   top: 48px;
   bottom: 40px;
   font-family: "Monospace", monospace, serif;
@@ -42,14 +47,15 @@ button, input {
   position: absolute;
   bottom: 0px;
   width: calc(100% - 24px);
+  height: 48px;
 }
 
 .chatText {
-  width: calc(100% - 60px);
+  width: calc(100% - 65px);
   height: 24px;
 }
 
-.chattBtn {
-  width: 120px;
+.chatBtn {
+  width: 60px;
   height: 24px;
 }
