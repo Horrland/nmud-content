@@ -25,8 +25,12 @@
   
 	<div class="chatBottom">
 	  <hr/>
-	  <form class="chatForm" onkeyup="enterpressalert(event,this)">
-		<input class="chatText" type="text" id="editText" autocomplete="off">
+	  <form class="chatForm">
+		<input class="chatText" 
+		  type="text" 
+		  id="editText" 
+		  autocomplete="off" 
+		  onkeypress="handleEnterPress(event)">
 		<input class="chatBtn" type="button" value="Send">
 	  </form>
 	</div>

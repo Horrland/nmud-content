@@ -7,19 +7,19 @@ btnSend.addEventListener('click', post);
 history();
   
 function post(){
-    var httpRequest = new XMLHttpRequest();
+  var httpRequest = new XMLHttpRequest();
 
-	if (!httpRequest) {
-        notify('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
-        return false;
-    }
-	
-	httpRequest.open('POST', address+'/io?msg='+txtSend.value, true);
-	httpRequest.send(null);
-	
-	txtSend.value = "";
-	txtSend.focus();
+  if (!httpRequest) {
+    notify('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
+    return false;
   }
+	
+  httpRequest.open('POST', address+'/io?msg='+txtSend.value, true);
+  httpRequest.send(null);
+	
+  txtSend.value = "";
+  txtSend.focus();
+}
   
 function history(){
   var httpRequest = new XMLHttpRequest();
@@ -39,44 +39,51 @@ function history(){
   get();
 }
 
-  function get(){
-  	var httpRequest = new XMLHttpRequest();
+function get(){
+  var httpRequest = new XMLHttpRequest();
 	
-	if (!httpRequest) {
-        notify('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
-        return false;
-    }
-	
-	httpRequest.onreadystatechange = function() {
-	  handleResponse(httpRequest);
-	};
-	
-	httpRequest.open('GET', address+'/io', true);
-	httpRequest.send(null);
+  if (!httpRequest) {
+    notify('Не вышло :( Невозможно создать экземпляр класса XMLHTTP ');
+    return false;
   }
+	
+  httpRequest.onreadystatechange = function() {
+    handleResponse(httpRequest);
+  };
+	
+  httpRequest.open('GET', address+'/io', true);
+  httpRequest.send(null);
+}
   
   
-  function handleResponse(httpRequest){
-	if (httpRequest.readyState == 4) {
-      if (httpRequest.status == 200) {
-        appendElementToList(httpRequest.responseText);
-		if(window.history.replaceState) {
-			window.history.replaceState({"id":100}, "document.title", "location.href");
-		}
-      } else {
-	  	if(httpRequest.status != 0){
-          notify('С запросом возникла проблема.\nstate: '+httpRequest.readyState+'\nstat:'+httpRequest.status);
-		}
-      }
-	  get();
+function handleResponse(httpRequest){
+  if (httpRequest.readyState == 4) {
+    if (httpRequest.status == 200) {
+      appendElementToList(httpRequest.responseText);
+	  if(window.history.replaceState) {
+		window.history.replaceState({"id":100}, "document.title", "location.href");
+	  }
+    } else {
+	  if(httpRequest.status != 0){
+        notify('С запросом возникла проблема.\nstate: '+httpRequest.readyState+'\nstat:'+httpRequest.status);
+	  }
     }
+	get();
   }
+}
   
 function appendElementToList(text) {
   var testElement = document.createElement('li');
   testElement.innerHTML = text;
   lstAnss.appendChild(testElement);
   layAnss.scrollTop = layAnss.scrollHeight;
+}
+
+function handleEnterPress(e){
+  if(e.keyCode === 13){
+	e.preventDefault();
+	post();
+  }
 }
 
 function notify(text){
