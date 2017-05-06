@@ -1,4 +1,4 @@
-id|preposition|maxlen|condition|script
+id|preposition|maxlen|cond|script
 1|на|0|0|description = 'Это '..arg[1]
 2|к|0|0|description = client:moveTo(arg[#arg])
 3| |0|0|description = client:getDescriptionOf(arg[#arg])
