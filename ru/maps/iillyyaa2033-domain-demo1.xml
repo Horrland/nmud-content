@@ -516,7 +516,7 @@ shape="0.0 0.0 0.0 0.0 0.7 0.0 0.1 0.7 0.0 0.1 0.0 0.0 "
 position="2.85:0.1:0.0"
 string-name="Дверь в коридор"
 params="exitPointY:0.35;PartOf:0L;exitPointX:3.5;"
-tags="door "material="">
+tags="door "material="wideness:узкая;">
 <parts>
 </parts>
 </Entity>
@@ -528,7 +528,7 @@ shape="0.0 0.0 0.0 0.0 0.7 0.0 0.7 0.7 0.0 0.7 0.0 0.0 "
 position="2.3:1.0:0.0"
 string-name="Бочка"
 params="ContentOf:0L;"
-tags=""material="">
+tags=""material="shape:пузатая;">
 <parts>
 </parts>
 </Entity>
@@ -538,7 +538,7 @@ shape="0.0 0.0 0.0 0.0 2.5 0.0 1.0 2.5 0.0 1.0 0.0 0.0 "
 position="2.0:2.0:0.0"
 string-name="Печь"
 params="ContentOf:0L;"
-tags=""material="">
+tags=""material="size:крупная;color:белая;">
 <parts>
 </parts>
 </Entity>
@@ -548,7 +548,7 @@ shape="0.0 0.0 0.0 0.0 3.9 0.0 0.8 3.9 0.0 0.8 0.0 0.0 "
 position="0.0:0.0:0.0"
 string-name="Стол"
 params="ContentOf:0L;"
-tags=""material="">
+tags=""material="wideness:узкий;">
 <parts>
 </parts>
 </Entity>
@@ -570,7 +570,7 @@ shape="0.0 0.0 0.0 0.0 0.1 0.0 0.8 0.1 0.0 0.8 0.0 0.0 "
 position="1.1:4.35:0.0"
 string-name="Дверь в прихожую"
 params="exitPointY:5;exitPointX:0.4;ContentOf:0L;"
-tags="door "material="">
+tags="door "material="quality:добротная;">
 <parts>
 </parts>
 </Entity>
